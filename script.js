@@ -228,7 +228,7 @@ constructor(){
            lastTime = timeStamp;
         ctx.clearRect(0 , 0 , canvas.width , canvas.height) 
         background.draw(ctx);
-       //  background.update();
+         background.update();
            player.draw(ctx);
            player.update(input , deltaTime , enemies);
            handleEnemies(deltaTime);
