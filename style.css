@@ -11,4 +11,5 @@ body{
 }
 #backgroundImg, #enemyImg , #playerImg{
     display: none;
+    color: pink;
 }
